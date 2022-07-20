@@ -1,0 +1,137 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    min-width: 375px;
+    max-width: 1440px;
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.image{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.seeimage{
+    width: 50px;
+    margin-top: 115px;
+    opacity: 1;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 260px;
+    width: 260px;
+    opacity: 0;
+    margin: 20px;
+    border-radius: 15px;
+    transition: .1s ease;
+    background-color:hsl(178, 100%, 50%);
+}
+
+
+.overlay:hover{
+    opacity: 0.4;
+} 
+
+
+h1{
+    color: white;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+#content{
+    color: hsl(215, 51%, 70%);
+    padding-left: 20px;
+    padding-right: 15px;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.eth{
+    position: relative;
+}
+
+.ethlogo{
+    width: 10px;
+    float:left;
+    padding-left: 20px;
+    padding-right: 5px;
+    overflow: auto;
+}
+
+.ethprice{
+    color: hsl(178, 100%, 50%);
+    transform: translate(0, -3px);
+}
+
+.time{
+    text-align: right;
+    height: 0px;
+}
+
+.clock{
+    width: 20px;
+    transform: translate(-120px, -40px)
+}
+
+.daysleft{
+    color: hsl(215, 51%, 70%);
+    transform: translate(-35px, -80px)
+}
+
+#authorimg{
+    width: 30px;
+    float: left;
+    margin-left: 20px;
+    border: solid 1px white;
+    margin-top: 5px;
+}
+
+#author{
+    color: hsl(215, 51%, 70%);
+    overflow: auto;
+    padding-left: 15px;
+    transform: translate(0, -3px);
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+img{
+    width: 260px;
+    border-radius: 15px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: default;
+}
+
+a{
+    color: white;
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 25px;
+}
