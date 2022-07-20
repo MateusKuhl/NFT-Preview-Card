@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://mateuskuhl.github.io/NFT-Preview-Card/)
+- Solution URL: [https://mateuskuhl.github.io/NFT-Preview-Card/](https://mateuskuhl.github.io/NFT-Preview-Card/)
 
 ## My process
 
